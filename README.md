@@ -11,6 +11,7 @@ Después de HTML5, los [componentes web](https://www.webcomponents.org/) son el 
   	* ***pug***: Contendrá los archivos **`.pug`** que compilarán a archivos HTML
   	* ***scss***: Contendrá los archivos **`.scss`** que compilaran a archivos CSS
   	* ***statics***: Contendrá todos los archivos estáticos del proyecto que no necesiten optimizarse o transformarse como videos, audios, **`.ico`**, **`.pdf`**, **`.xml`**, **`.txt`**, etc
+	
 	* ***public***: es el directorio donde tendremos la versión para publicar del proyecto con todos los archivos HTML generados, lás imágenes optimizadas y archivos estáticos requeridos, así como un sólo archivo CSS (**`style.css`**) y JS (**`script.js`**) que contendrán toda la presentación y programación respectivamente
 * Archivos:
 	* ***package.json***: contiene la configuración del proyecto, en el podrás ver todas las dependencias y los scripts NPM programados del Boilerplate
