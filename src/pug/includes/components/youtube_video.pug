@@ -1,0 +1,4 @@
+mixin youtubeVideo(id)
+  article(id=`${id}`).Youtube
+    div.Youtube-wrapper
+      iframe(src=`https://www.youtube-nocookie.com/embed/${id}`, frameborder="0")

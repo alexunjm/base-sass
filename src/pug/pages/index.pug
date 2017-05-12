@@ -1,0 +1,18 @@
+extends ../includes/layout.pug
+include ../includes/components/picture.pug
+include ../includes/components/picture_webp.pug
+include ../includes/components/youtube_video.pug
+block metatags
+  -var title = 'Feliz Desarrollo Web basado en Componentes Web'
+  -var description = 'Boilerplate para el desarrollo de proyectos Frontend basado en Componentes de @jonmircha'
+  title= title
+  meta(name="description", content=description)
+  meta(name="application-name", content=title)
+block content
+  main.App
+    p.App-title= title
+    img(src="./img/logo.svg")
+    i.fa.fa-smile-o.fa-5x
+    +picture('kitten-small.png', [ ['kitten-large.png', '(min-width: 64em)'], ['kitten-medium.png', '(min-width: 48em)'] ])
+    +youtubeVideo('6DI1Wq8KzAc')
+    +pictureWebp('kEnAi')

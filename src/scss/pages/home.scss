@@ -1,0 +1,29 @@
+.App {
+	width: 80vw;
+	height: 80vh;
+	margin: 10vh 10vw;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	
+	& > * {
+		margin: 1rem auto;
+	}
+
+	& a {
+		color: #E44D26;
+	}
+
+	& picture,
+	& img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	&-title {
+		font: {
+			weight: bold;
+			size: 5vw;
+		}
+	}
+}

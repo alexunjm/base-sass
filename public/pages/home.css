@@ -1,0 +1,18 @@
+.App {
+  width: 80vw;
+  height: 80vh;
+  margin: 10vh 10vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .App > * {
+    margin: 1rem auto; }
+  .App a {
+    color: #E44D26; }
+  .App picture,
+  .App img {
+    max-width: 100%;
+    height: auto; }
+  .App-title {
+    font-weight: bold;
+    font-size: 5vw; }

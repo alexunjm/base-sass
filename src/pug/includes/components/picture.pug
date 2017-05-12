@@ -1,0 +1,5 @@
+mixin picture(imgBase, imgsMQ)
+  picture
+    each img in imgsMQ
+      source(srcset=`./img/${img[0]}`, media=`${img[1]}`)
+    img(src=`./img/${imgBase}`)
