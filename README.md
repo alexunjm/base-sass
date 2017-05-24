@@ -1,17 +1,19 @@
 # Boilerplate Frontend basado en Componentes
 
-Boilerplate para el desarrollo de proyectos Frontend basado en Componentes Web con metalenguajes y automatización y optimización de tareas con Scripts NPM de [@jonmircha](http://jonmircha.com).
+Boilerplate para el desarrollo de proyectos Frontend basado en Componentes Web con metalenguajes y automatización y optimización de tareas con Scripts NPM desarrollado por [@jonmircha](http://jonmircha.com).
 
 Después de HTML5, los [componentes web](https://www.webcomponents.org/) son el siguiente gran salto en el paradigma del desarrollo web frontend, pero [aun no están listos](http://caniuse.com/#search=components), sin embargo con herramientas como Node, Scripts NPM, Sass, PostCSS, UnCSS, Pug, Babel, Browserify, entre algunos otros, podemos desarrollar proyectos con la filosofía de reutilización y componetización que proponen los componentes web, sin necesidad de usar frameworks y librerías robustas como [Angular](https://angular.io/), [React](https://facebook.github.io/react/), [Vue.js](https://vuejs.org/) o [Polymer](https://www.polymer-project.org/).
 
-Además este Boilerplate tiene la filosofía de generar un sólo archivo **`CSS`** gracias a los **`imports`** de **`Sass`** y un sólo archivo **`JavaScript`** gracias a **`Browserify`**, adicionalmente con **`Babel`** puedes utilizar todas las características del estandar **`EcmaScript`** como los módulos (**`import`** y **`export`**).
+Además este Boilerplate tiene la filosofía de generar un sólo archivo **`CSS`** gracias a los **`imports`** de **`Sass`** y un sólo archivo **`JavaScript`** gracias a **`Browserify`**, adicionalmente con **`Babel`** puedes utilizar todas las características del estándar **`EcmaScript`** como los módulos (**`import`** y **`export`**).
 
 Para comenzar a trabajar con este boileplate sólo ejecuta los siguientes comandos:
 
 ```
+**
 npm install  //Para instalar todas las dependencias
 npm start //Para comenzar a desarrollar
 npm build //Para preparar el proyecto para su publicación
+**
 ```
 
 ## Estructura de Boilerplate:

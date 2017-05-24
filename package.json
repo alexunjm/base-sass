@@ -26,7 +26,7 @@
     "pngresize": "mogrify -resize \"1024 >\" ./public/img/*.png",
     "statics": "node statics",
     "assets": "npm run statics && npm run imagemin && npm run webp && npm run svgmin && npm run gifmin",
-    "clean": "rimraf \"./public/**\" && mkdirp ./public/img",
+    "clean": "rimraf \"./public/**\" && mkdirp ./public/img && touch ./public/index.html ./public/script.js ./public/style.css",
     "min.html": "pug -p ./src/pug/includes/ ./src/pug/pages/ -o ./public/",
     "min.js": "npm run browserify && uglifyjs ./public/script.js -c -o ./public/script.js",
     "uncss": "uncss -u uncss.json \"./public/**.html\" > ./public/style.un.css",
