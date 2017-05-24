@@ -17,5 +17,5 @@
     Node.js, NPM, NPM Scripts,
     Sass, Pug, Babel,
     Browserify, Autoprefixer, UnCSS
-    BrowserSync, Parallellshell, ImageMin
+    BrowserSync, ImageMin
     Visual Studio Code, Powershell, Chrome

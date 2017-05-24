@@ -1,35 +1,58 @@
-.App {
-	width: 80vw;
-	min-height: 80vh;
-	margin: 10vh 10vw;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-  background-color: red;
-	
-	& > * {
-		margin: 1rem auto;
-	}
-
-	& a {
-		color: #E44D26;
-	}
-
-	& picture,
-	& img {
-		max-width: 100%;
-		height: auto;
-	}
-
-	&-title {
-		font: {
-			weight: bold;
-			size: 5vw;
-		}
-	}
-
-  &-video {
-    
-    background-color: red;
+html {
+  background: {
+    color: #3A99D7;
+    image: radial-gradient(circle, #FFF, #3A99D7);
   }
+}
+
+.App {
+  width: 80vw;
+  max-width: 800px;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  & > * { margin: 1rem auto; }
+
+  & a { color: #E44D26; }
+
+  & picture,
+  & img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &-title {
+    font: {
+      weight: bold;
+      size: 6vw;
+    }
+
+    @media screen and (min-width: 64em) { font-size: 3vw; }
+  }
+
+  &-logo { width: 480px; }
+
+  &-logos {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+
+    & img {
+      padding: 1rem;
+      width: 320px;
+    }
+  }
+
+  &-video { width: 100%; }
+}
+
+.u-download {
+  font: {
+    weight: bold;
+    size: 4vw;
+  }
+
+  @media screen and (min-width: 64em) { font-size: 2rem; }
 }

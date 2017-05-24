@@ -1,14 +1,15 @@
-$font: 'Montserrat', sans-serif;
+$font: sans-serif;
+$font-size: 16px;
 
-html { 
+html {
   box-sizing: border-box;
   font-family: $font;
-  font-size: 16px;
+  font-size: $font-size;
 }
 
 *,
 *:after,
-*:before { 
+*:before {
   box-sizing: inherit;
   margin: 0;
   padding: 0;

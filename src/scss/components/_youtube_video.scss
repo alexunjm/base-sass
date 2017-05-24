@@ -1,34 +1,32 @@
 $video-width: 100%;
 
 .Youtube {
-	max-width: $video-width;
-	height: auto;
-	display: block;
-	margin: auto;
-	
-	&-wrapper {
-		position: relative;
-		padding-bottom: 56.25%; /* 16:9 */
-    background-color: green;
-    /*width: inherit;*/
-		/*height: 0;*/
-    
-    & iframe {
-      /*position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;*/
-    }
+  max-width: $video-width;
+  height: auto;
+  display: block;
+  margin: auto;
 
-    & a {
-      display: block;
-      margin: 2rem auto;
-      text: {
-        align: center;
-        decoration: none;
-      }
-      font-size: 3.5vw;
+  &-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+
+  & iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  & a {
+    display: block;
+    margin: 2rem auto;
+    text: {
+      align: center;
+      decoration: none;
     }
-	}
+    font-size: 3.5vw;
+  }
 }
