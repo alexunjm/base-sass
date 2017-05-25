@@ -66,6 +66,23 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 * :heavy_dollar_sign: **`watchify`**: Observa Browserify con soporte para Babel.
 * :heavy_dollar_sign: **`serve`**: Levanta un servidor web live reload con Browser Sync.
 * :heavy_dollar_sign: **`proxy`**: Levanta un servidor web proxy live reload con Browser Sync.
-* :heavy_dollar_sign: **`metalangs`**: Ejecuta en paralelo los scripts de sass, pug y watchify.
-* :heavy_dollar_sign: **`devserve`**: Ejecuta en paralelo los scripts de metalangs y serve.
-* :heavy_dollar_sign: **`devproxy`**: Ejecuta en paralelo los scripts de metalangs y proxy.
+* :heavy_dollar_sign: **`metalangs`**: Ejecuta en paralelo los scripts de **`sass`**, **`pug`** y **`watchify`**.
+* :heavy_dollar_sign: **`devserve`**: Ejecuta en paralelo los scripts de **`metalangs`** y **`serve`**.
+* :heavy_dollar_sign: **`devproxy`**: Ejecuta en paralelo los scripts de **`metalangs`** y **`proxy`**.
+* :heavy_dollar_sign: **`imagemin`**: Optimiza las imágenes .jpg y .png del proyecto.
+* :heavy_dollar_sign: **`webp`**: Genera una versión .webp de todas las imágenes .jpg del proyecto.
+* :heavy_dollar_sign: **`svgmin`**: Optimiza las imágenes .svg del proyecto.
+* :heavy_dollar_sign: **`gifmin`**: Optimiza las imágenes .gif del proyecto.
+* :heavy_dollar_sign: **`jpgresize`**: Redimensiona las imágenes .jpg del proyecto, requiere [ImageMagick](http://www.imagemagick.org) instalado para que funcione.
+* :heavy_dollar_sign: **`pngresize`**: Redimensiona las imágenes .png del proyecto, requiere [ImageMagick](http://www.imagemagick.org) instalado para que funcione.
+* :heavy_dollar_sign: **`statics`**: Mueve los archivos estáticos del proyecto.
+* :heavy_dollar_sign: **`assets`**: Ejecuta de manera síncrona y bloqueante los comandos de **`statics`**, **`imagemin`**, **`webp`**, **`svgmin`** y **`gifmin`**.
+* :heavy_dollar_sign: **`clean`**: Limpia el contenido de la carpeta public y crea los archivos y carpetas necesarios en ella.
+* :heavy_dollar_sign: **`min.html`**: Minifica todos los archivos .html del proyecto.
+* :heavy_dollar_sign: **`min.js`**: Minifica y ofusca el archivo **`script.js`** del proyecto.
+* :heavy_dollar_sign: **`uncss`**: Remueve el código CSS innecesario del proyecto, tomando en cuenta la configuración del archivo **`uncss.json`**.
+* :heavy_dollar_sign: **`autoprefixer`**: Ejecuta el autoprefijado CSS al archivo **`style.un.css`** que contiene el código CSS depurado del proyecto.
+* :heavy_dollar_sign: **`min.css`**: Minifica el código CSS del archivo **`style.un.css`** y lo guarda en **`style.css`**.
+* :heavy_dollar_sign: **`min`**: Ejecuta de manera síncrona y bloqueante los comandos de **`min.html`**, **`min.js`**, **`uncss`**, **`autoprefixer`**, **`min.css`** y luego elimina el archivo **`style.un.css`**.
+* :heavy_dollar_sign: **`build`**: Ejecuta de manera síncrona y bloqueante los comandos de **`assets`**, **`min`** y **`serve`**, éste comando prepara la versión de publicación del proyecto.
+* :heavy_dollar_sign: **`start`**: Ejecuta el comando **`devserve`**, éste comando inicia nuestro entorno de desarrollo para comenzar a trabajar en nuestro proyecto.
