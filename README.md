@@ -12,7 +12,7 @@ Después de HTML5, los [componentes web](https://www.webcomponents.org/) son el 
 
 Además este Boilerplate tiene la filosofía de generar un sólo archivo **CSS** gracias a los **imports** de **Sass** y un sólo archivo **JavaScript** gracias a **Browserify**, adicionalmente con **Babel** puedes utilizar todas las características del estándar **EcmaScript** como los módulos (**import** y **export**).
 
-**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
+**[:arrow_upper_left: regresar al índice](#boilerplate-frontend-basado-en-componentes)**
 
 ## Para comenzar:
 
@@ -22,7 +22,7 @@ Sólo ejecuta los siguientes comandos:
 * **`npm start`** Para comenzar a trabajar.
 * **`npm run build`** Para publicar el proyecto.
 
-**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
+**[:arrow_upper_left: regresar al índice](#boilerplate-frontend-basado-en-componentes)**
 
 ## Estructura del Boilerplate:
 
@@ -63,7 +63,7 @@ Es el directorio donde tendremos la versión para publicar del proyecto con todo
 * :page_facing_up: **`uncss.json`**: Contiene la configuración del plugin **`uncss`** que puede ser modificada en base a las necesidades del proyecto.
 * :page_facing_up: **`README.md`**: Contiene la documentación de éste Boilerplate.
 
-**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
+**[:arrow_upper_left: regresar al índice](#boilerplate-frontend-basado-en-componentes)**
 
 ## Scripts NPM:
 
@@ -113,4 +113,4 @@ En esta sección se irán documentando los componentes web que vayan estando dip
 
 ### Picture Webp
 
-**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
+**[:arrow_upper_left: regresar al índice](#boilerplate-frontend-basado-en-componentes)**
