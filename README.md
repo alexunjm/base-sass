@@ -1,10 +1,18 @@
 # Boilerplate Frontend basado en Componentes
 
-Boilerplate para el desarrollo de proyectos Frontend basado en Componentes Web con metalenguajes y automatización y optimización de tareas con Scripts NPM desarrollado por [@jonmircha](http://jonmircha.com).
+* [Inicio](#boilerplate-frontend-basado-en-componentes)
+* [Para comenzar](#para-comenzar)
+* [Estructura de Boilerplate](#estructura-del-boilerplate)
+* [Scripts NPM](#scripts-npm)
+* [Componentes Disponibles](#componentes-disponibles)
+
+Boilerplate para el desarrollo de proyectos Frontend basado en Componentes Web con metalenguajes (Pug y Sass) y automatización y optimización de tareas con Scripts NPM desarrollado por [@jonmircha](http://jonmircha.com).
 
 Después de HTML5, los [componentes web](https://www.webcomponents.org/) son el siguiente gran salto en el paradigma del desarrollo web frontend, pero [aun no están listos](http://caniuse.com/#search=components), sin embargo con herramientas como Node, Scripts NPM, Sass, PostCSS, UnCSS, Pug, Babel, Browserify, entre algunos otros, podemos desarrollar proyectos con la filosofía de reutilización y componetización que proponen los componentes web, sin necesidad de usar frameworks y librerías robustas como [Angular](https://angular.io/), [React](https://facebook.github.io/react/), [Vue.js](https://vuejs.org/) o [Polymer](https://www.polymer-project.org/).
 
 Además este Boilerplate tiene la filosofía de generar un sólo archivo **CSS** gracias a los **imports** de **Sass** y un sólo archivo **JavaScript** gracias a **Browserify**, adicionalmente con **Babel** puedes utilizar todas las características del estándar **EcmaScript** como los módulos (**import** y **export**).
+
+**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
 
 ## Para comenzar:
 
@@ -13,6 +21,8 @@ Sólo ejecuta los siguientes comandos:
 * **`npm install`** Para instalar todas las dependencias.
 * **`npm start`** Para comenzar a trabajar.
 * **`npm run build`** Para publicar el proyecto.
+
+**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
 
 ## Estructura del Boilerplate:
 
@@ -53,7 +63,9 @@ Es el directorio donde tendremos la versión para publicar del proyecto con todo
 * :page_facing_up: **`uncss.json`**: Contiene la configuración del plugin **`uncss`** que puede ser modificada en base a las necesidades del proyecto.
 * :page_facing_up: **`README.md`**: Contiene la documentación de éste Boilerplate.
 
-### Scripts NPM:
+**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
+
+## Scripts NPM:
 
 Éste Boilerplate tiene disponible los siguientes comandos para optimizar y automatizar proyectos frontend, siéntete libre de modificarlos a tus necesidades
 
@@ -87,14 +99,18 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 * :heavy_dollar_sign: **`build`**: Ejecuta de manera síncrona y bloqueante los comandos de **`assets`**, **`min`** y **`serve`**, éste comando prepara la versión de publicación del proyecto.
 * :heavy_dollar_sign: **`start`**: Ejecuta el comando **`devserve`**, éste comando inicia nuestro entorno de desarrollo para comenzar a trabajar en nuestro proyecto.
 
-### Componentes Disponibles
+**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
 
-En esta sección se irán documentando los componentes web que vayan estando diponibles en el Boilerplate, si quieres colaborar con algún componente puedes ponerte en contacto al correo jonmircha@gmail.com
+## Componentes Disponibles
 
-#### Box Sizing
+En esta sección se irán documentando los componentes web que vayan estando diponibles en el Boilerplate, si quieres colaborar creando algún componente puedes ponerte en contacto al correo jonmircha@gmail.com
 
-#### Youtube Video
+### Box Sizing
 
-#### Picture
+### Youtube Video
 
-#### Picture Webp
+### Picture
+
+### Picture Webp
+
+**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
