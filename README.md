@@ -99,7 +99,7 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 * :heavy_dollar_sign: **`build`**: Ejecuta de manera síncrona y bloqueante los comandos de **`assets`**, **`min`** y **`serve`**, éste comando prepara la versión de publicación del proyecto.
 * :heavy_dollar_sign: **`start`**: Ejecuta el comando **`devserve`**, éste comando inicia nuestro entorno de desarrollo para comenzar a trabajar en nuestro proyecto.
 
-**[⬆ regresar al índice](#boilerplate-frontend-basado-en-componentes)**
+**[:arrow_upper_left: regresar al índice](#boilerplate-frontend-basado-en-componentes)**
 
 ## Componentes Disponibles
 
