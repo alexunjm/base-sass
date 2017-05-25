@@ -8,11 +8,9 @@ Además este Boilerplate tiene la filosofía de generar un sólo archivo **`CSS`
 
 Para comenzar a trabajar con este boileplate sólo ejecuta los siguientes comandos:
 
-~~~
-**npm install  //Para instalar todas las dependencias**
-**npm start //Para comenzar a desarrollar**
-**npm build //Para preparar el proyecto para su publicación**
-~~~
+* **`npm install`** Para instalar todas las dependencias
+* **`npm start`** Para comenzar a trabajar
+* **`npm run build`** Para publicar el proyecto
 
 ## Estructura de Boilerplate:
 
