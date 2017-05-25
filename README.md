@@ -86,3 +86,15 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 * :heavy_dollar_sign: **`min`**: Ejecuta de manera síncrona y bloqueante los comandos de **`min.html`**, **`min.js`**, **`uncss`**, **`autoprefixer`**, **`min.css`** y luego elimina el archivo **`style.un.css`**.
 * :heavy_dollar_sign: **`build`**: Ejecuta de manera síncrona y bloqueante los comandos de **`assets`**, **`min`** y **`serve`**, éste comando prepara la versión de publicación del proyecto.
 * :heavy_dollar_sign: **`start`**: Ejecuta el comando **`devserve`**, éste comando inicia nuestro entorno de desarrollo para comenzar a trabajar en nuestro proyecto.
+
+### Componentes Disponibles
+
+En esta sección se irán documentando los componentes web que vayan estando diponibles en el Boilerplate, si quieres colaborar con algún componente puedes ponerte en contacto al correo jonmircha@gmail.com
+
+#### Box Sizing
+
+#### Youtube Video
+
+#### Picture
+
+#### Picture Webp
