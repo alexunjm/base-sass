@@ -18,12 +18,14 @@ Sólo ejecuta los siguientes comandos:
 
 ### Carpetas:
 
-#### :file_folder: ***src***: Es el directorio donde tendremos los archivos del proyecto en fase de desarrollo, y se estructura de la siguiente manera:
+#### :file_folder: ***src***:
+
+Es el directorio donde tendremos los archivos del proyecto en fase de desarrollo, y se estructura de la siguiente manera:
 
 * :file_folder: ***img***: Contendrá las imágenes del proyecto sin optimizar
-* :file_folder:***js***: Contendrá los archivos JS con programación ES6 o superior que serán compilados con **`Babel`** y unificados con **`Browserify`**
+* :file_folder: ***js***: Contendrá los archivos JS con programación ES6 o superior que serán compilados con **`Babel`** y unificados con **`Browserify`**
   * :file_folder: ***components***: Contendrá los archivos de la programación JS de los componentes
-  * **`index.js`**: Es el archivo principal JS del proyecto, en el que se podrá importar los componentes que se requieran de la carpeta ***components*** o de las dependencias que se tenga en ***node_modules***
+  * :page_facing_up: **`index.js`**: Es el archivo principal JS del proyecto, en el que se podrá importar los componentes que se requieran de la carpeta ***components*** o de las dependencias que se tenga en ***node_modules***
 * :file_folder: ***pug***: Contendrá los archivos **`.pug`** que compilarán a archivos HTML
   * :file_folder: ***includes***: Contendrá los archivos **`.pug`** que serán incluidos en algún otro archivo y que por tal, no serán compílados a HTML
     * :file_folder: ***components***: Contendrá los archivos de la estructura y contenido Pug de los componentes
