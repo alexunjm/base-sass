@@ -103,9 +103,20 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 
 ## Componentes Disponibles
 
-En esta sección se irán documentando los componentes web que vayan estando diponibles en el Boilerplate, si quieres colaborar creando algún componente puedes ponerte en contacto al correo jonmircha@gmail.com
+En esta sección se irán listando los componentes web que vayan estando disponibles en este Boilerplate, si quieres colaborar creando algún componente puedes ponerte en contacto al correo jonmircha@gmail.com.
 
-### Box Sizing
+Cada Componente tiene su respectiva documentacíon al inicio de sus archivos, dependiendo del tipo de componente y su funcionamiento puede que tenga o no, código pug, sass y/o js.
+
+Para que sepas que tipo de código tiene un componente encontrarás al lado del nombre de cada componente los siguientes logos:
+
+* Si tiene código pug ![Pug](http://bextlan.com/para-libs/pug-indicator.png)
+* Si tiene código sass ![Sass](http://bextlan.com/para-libs/sass-indicator.png)
+* Si tiene código js ![JS](http://bextlan.com/para-libs/js-indicator.png)
+
+### Box Sizing ![Sass](http://bextlan.com/para-libs/sass-indicator.png)
+
+#### Descripción
+#### Archivos del componente
 
 ### Youtube Video
 
