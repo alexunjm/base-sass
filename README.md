@@ -6,7 +6,9 @@ Después de HTML5, los [componentes web](https://www.webcomponents.org/) son el 
 
 Además este Boilerplate tiene la filosofía de generar un sólo archivo **`CSS`** gracias a los **`imports`** de **`Sass`** y un sólo archivo **`JavaScript`** gracias a **`Browserify`**, adicionalmente con **`Babel`** puedes utilizar todas las características del estándar **`EcmaScript`** como los módulos (**`import`** y **`export`**).
 
-Para comenzar a trabajar con este boileplate sólo ejecuta los siguientes comandos:
+## Para comenzar:
+
+Sólo ejecuta los siguientes comandos:
 
 * **`npm install`** Para instalar todas las dependencias
 * **`npm start`** Para comenzar a trabajar
@@ -16,11 +18,11 @@ Para comenzar a trabajar con este boileplate sólo ejecuta los siguientes comand
 
 ### Carpetas:
 
-#### ***src***: 
+#### :file_folder: ***src***: 
 
 Es el directorio donde tendremos los archivos del proyecto en fase de desarrollo, y se estructura de la siguiente manera:
 
-* ***img***: Contendrá las imágenes del proyecto sin optimizar
+* :file_folder: ***img***: Contendrá las imágenes del proyecto sin optimizar
 * ***js***: Contendrá los archivos JS con programación ES6 o superior que serán compilados con **`Babel`** y unificados con **`Browserify`**
   * ***components***: Contendrá los archivos de la programación JS de los componentes
   * **`index.js`**: Es el archivo principal JS del proyecto, en el que se podrá importar los componentes que se requieran de la carpeta ***components*** o de las dependencias que se tenga en ***node_modules***
