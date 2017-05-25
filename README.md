@@ -67,7 +67,7 @@ Es el directorio donde tendremos la versión para publicar del proyecto con todo
 
 ## Scripts NPM:
 
-Éste Boilerplate tiene disponible los siguientes comandos para optimizar y automatizar proyectos frontend, siéntete libre de modificarlos a tus necesidades
+Éste boilerplate tiene disponible los siguientes comandos para optimizar y automatizar proyectos frontend, siéntete libre de modificarlos a tus necesidades.
 
 Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm run [nombre del comando]`**
 
