@@ -105,7 +105,7 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 
 En esta sección se irán listando los componentes web que vayan estando disponibles en este Boilerplate, si quieres colaborar creando algún componente puedes ponerte en contacto al correo jonmircha@gmail.com.
 
-Cada Componente tiene su respectiva documentacíon al inicio de sus archivos js y scss, dependiendo del tipo de componente y su funcionamiento puede que tenga o no, código pug, sass y/o js.
+Cada Componente tiene su respectiva documentacíon al inicio de sus archivos pug, scss y js, dependiendo del tipo de componente y su funcionamiento puede que tenga o no, código pug, sass y/o js.
 
 Para que sepas que tipo de código tiene un componente encontrarás al lado del nombre de cada componente los siguientes logos:
 
@@ -130,12 +130,24 @@ Componente para aplicar un reseteo de estilos básicos al documento, aplica las 
 
 Componente para incrustar un video de YouTube en nuestro sitio web cuando la resolución es mayor a 64em (1024px), cuando es menor se agrega un enlace al video
 
-**Dependencias:** [font-awesome.css](./src/scss/vendors/font-awesome.css)
+**Dependencias:** [**`font-awesome.css`**](./src/scss/vendors/font-awesome.css)
 
 **Archivos:** [**`youtube_video.pug`**](./src/pug/includes/components/youtube_video.pug), [**`_youtube_video.scss`**](./src/scss/components/_youtube_video.scss), [**`youtube_video.js`**](./src/js/components/youtube_video.js)
 
-### Picture
+### Picture ![Pug](http://bextlan.com/img/para-libs/indicator-pug.png)
 
-### Picture Webp
+Componente para generar una imagen responsive con la etiqueta Picture
+
+**Dependencias:** Ninguna
+
+**Archivos:** [**`picture.pug`**](./src/pug/includes/components/picture.pug)
+
+### Picture Webp ![Pug](http://bextlan.com/img/para-libs/indicator-pug.png)
+
+Componente para generar una imagen responsive con soporte al formato Webp, aplica sólo para imágenes .jpg
+
+**Dependencias:** Ninguna
+
+**Archivos:** [**`picture_webp.pug`**](./src/pug/includes/components/picture_webp.pug)
 
 **[:arrow_upper_left: regresar al índice](#boilerplate-frontend-basado-en-componentes)**
