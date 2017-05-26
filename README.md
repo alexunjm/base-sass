@@ -109,6 +109,11 @@ Cada Componente tiene su respectiva documentacíon al inicio de sus archivos, de
 
 Para que sepas que tipo de código tiene un componente encontrarás al lado del nombre de cada componente los siguientes logos:
 
+* Si tiene código pug ![Pug](http://bextlan.com/img/para-libs/indicator-pug.png)
+* Si tiene código sass ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png)
+* Si tiene código js ![JS](http://bextlan.com/img/para-libs/indicator-js.png)
+
+### Box Sizing ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png)
 
 #### Descripción
 #### Archivos del componente
