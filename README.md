@@ -113,9 +113,17 @@ Para que sepas que tipo de código tiene un componente encontrarás al lado del 
 * Si tiene código sass ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png)
 * Si tiene código js ![JS](http://bextlan.com/img/para-libs/indicator-js.png)
 
-### Box Sizing ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png)
+### Basic Reset ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png)
 
-#### Descripción
+Componente para aplicar un reseteo de estilos básicos al documento, aplica las siguientes reglas:
+
+* box-sizing: border-box; al documento HTML y todos sus elementos
+* padding y margin de todos los elementos a cero
+* Evita barras de desplazamiento horizontal al body del documento, múy útil para el Responsive Design
+* Asigna la fuente tipográfica y el tamaño base de fuente para el documento HTML
+
+Archivos: [basic_reset.scss](./src/scss/components/_basic_reset.scss)
+
 #### Archivos del componente
 
 ### Youtube Video
