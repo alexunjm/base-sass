@@ -105,7 +105,7 @@ Recuerda que todos los comandos de NPM se corren desde la terminal con **`npm ru
 
 En esta sección se irán listando los componentes web que vayan estando disponibles en este Boilerplate, si quieres colaborar creando algún componente puedes ponerte en contacto al correo jonmircha@gmail.com.
 
-Cada Componente tiene su respectiva documentacíon al inicio de sus archivos, dependiendo del tipo de componente y su funcionamiento puede que tenga o no, código pug, sass y/o js.
+Cada Componente tiene su respectiva documentacíon al inicio de sus archivos js y scss, dependiendo del tipo de componente y su funcionamiento puede que tenga o no, código pug, sass y/o js.
 
 Para que sepas que tipo de código tiene un componente encontrarás al lado del nombre de cada componente los siguientes logos:
 
@@ -122,11 +122,17 @@ Componente para aplicar un reseteo de estilos básicos al documento, aplica las 
 * Evita barras de desplazamiento horizontal al body del documento, múy útil para el Responsive Design
 * Asigna la fuente tipográfica y el tamaño base de fuente para el documento HTML
 
-Archivos: [**`basic_reset.scss`**](./src/scss/components/_basic_reset.scss)
+**Dependencias:** Ninguna
 
-#### Archivos del componente
+**Archivos:** [**`_basic_reset.scss`**](./src/scss/components/_basic_reset.scss)
 
-### Youtube Video
+### Youtube Video ![Pug](http://bextlan.com/img/para-libs/indicator-pug.png) ![Sass](http://bextlan.com/img/para-libs/indicator-sass.png) ![JS](http://bextlan.com/img/para-libs/indicator-js.png)
+
+Componente para incrustar un video de YouTube en nuestro sitio web cuando la resolución es mayor a 64em (1024px), cuando es menor se agrega un enlace al video
+
+**Dependencias:** [font-awesome.css](./src/scss/vendors/font-awesome.css)
+
+**Archivos:** [**`youtube_video.pug`**](./src/pug/includes/components/youtube_video.pug), [**`youtube_video.scss`**](./src/scss/components/youtube_video.scss), [**`youtube_video.js`**](./src/js/components/youtube_video.js)
 
 ### Picture
 
