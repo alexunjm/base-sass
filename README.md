@@ -122,7 +122,7 @@ Componente para aplicar un reseteo de estilos básicos al documento, aplica las 
 * Evita barras de desplazamiento horizontal al body del documento, múy útil para el Responsive Design
 * Asigna la fuente tipográfica y el tamaño base de fuente para el documento HTML
 
-Archivos: [basic_reset.scss](./src/scss/components/_basic_reset.scss)
+Archivos: [**`basic_reset.scss`**](./src/scss/components/_basic_reset.scss)
 
 #### Archivos del componente
 
