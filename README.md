@@ -132,7 +132,7 @@ Componente para incrustar un video de YouTube en nuestro sitio web cuando la res
 
 **Dependencias:** [font-awesome.css](./src/scss/vendors/font-awesome.css)
 
-**Archivos:** [**`youtube_video.pug`**](./src/pug/includes/components/youtube_video.pug), [**`youtube_video.scss`**](./src/scss/components/youtube_video.scss), [**`youtube_video.js`**](./src/js/components/youtube_video.js)
+**Archivos:** [**`youtube_video.pug`**](./src/pug/includes/components/youtube_video.pug), [**`_youtube_video.scss`**](./src/scss/components/_youtube_video.scss), [**`youtube_video.js`**](./src/js/components/youtube_video.js)
 
 ### Picture
 
