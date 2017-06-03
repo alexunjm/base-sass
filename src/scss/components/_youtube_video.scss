@@ -15,15 +15,18 @@
 $video-width: 100%;
 
 .Youtube {
-  max-width: $video-width;
+  width: $video-width;
   height: auto;
   display: block;
   margin: auto;
 
   &-wrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
+    height: auto;
+
+    @media screen and (min-width: 64em) {
+      padding-bottom: 56.25%; /* 16:9 */
+    }
   }
 
   & iframe {
@@ -44,3 +47,4 @@ $video-width: 100%;
     font-size: 3.5vw;
   }
 }
+
