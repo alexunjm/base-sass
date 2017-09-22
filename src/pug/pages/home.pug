@@ -1,0 +1,56 @@
+extends ../includes/layout.pug
+include ../includes/components/picture.pug
+include ../includes/components/picture_webp.pug
+include ../includes/components/youtube_video.pug
+block metatags
+  -var title = 'Flexible FW by Alex'
+  -var description = 'Ejemplo de utilización del FW'
+  title= title
+  meta(name="description", content=description)
+  meta(name="application-name", content=title)
+block content
+  main.App
+    p.App-title= title
+  div.container
+    div.col
+      span texto de prueba
+    div.col
+      span texto de prueba
+    div.col
+      span texto de prueba
+  div.container.wrap
+    div.col.cuadrado
+      span texto de prueba
+    div.col.cuadrado
+      span texto de prueba
+    div.col.cuadrado
+      span texto de prueba
+  div.container
+    div.col-sm-30
+      span texto de prueba
+    div.col-md-40
+      span texto de prueba
+    div.col-lg-30
+      span texto de prueba
+  div.container
+    div.col-fixed-sm-30
+      span texto de prueba
+    div.col-fixed-md-40
+      span texto de prueba
+    div.col-fixed-lg-30
+      span texto de prueba
+
+  div.container.wrap
+    div.col-fixed-sm-100.col-fixed-md-40.col-fixed-lg-30
+      span texto de prueba
+    div.col-fixed-sm-100.col-fixed-md-40.col-fixed-lg-30
+      span texto de prueba
+    div.col-fixed-sm-100.col-fixed-md-40.col-fixed-lg-30
+      span texto de prueba
+  ul.container.justify-content-space-between
+    li.cuadrado.container-centered 1
+    li.cuadrado.container-centered 2
+    li.cuadrado.container-centered 3
+    li.cuadrado.container-centered 4
+    li.cuadrado.container-centered 5
+    li.cuadrado.container-centered 6

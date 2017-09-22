@@ -1,6 +1,13 @@
 @import 'vendors/font-awesome';
 
+@import 'variables/variables';
 @import 'components/basic_reset';
 @import 'components/youtube_video';
 
 @import 'pages/home';
+
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  background-color: #ff6347;
+}

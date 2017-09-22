@@ -1,21 +1,18 @@
-html {
+html.default-bg-color {
   background: {
-    color: #3A99D7;
-    image: radial-gradient(circle, #FFF, #3A99D7);
+    color: $bg-color;
+    image: $bg-image;
   }
 }
 
 .App {
-  width: 80vw;
-  max-width: 800px;
-  margin: 10vh auto;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  
-  & > * { margin: 1rem auto; }
+  @extend .default-width;
+  @extend .default-margin;
+  @extend .direction-column;
 
-  & a { color: #E44D26; }
+  & > * { margin: $default-app-inner-margin; }
+
+  & a { color: $a-default-color; }
 
   & picture,
   & img {
@@ -35,8 +32,7 @@ html {
   &-logo { width: 480px; }
 
   &-logos {
-    display: flex;
-    justify-content: center;
+    @extend .container-unitary-direction-centered;
     align-content: space-between;
 
     & img {
@@ -48,7 +44,7 @@ html {
   &-video { width: 100%; }
 }
 
-.u-download {
+.download {
   font: {
     weight: bold;
     size: 4vw;
